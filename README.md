@@ -42,6 +42,15 @@
 
 <br>
 
+## 디자인 참고
+* * *
+
+<img src="https://cdn.dribbble.com/users/2202649/screenshots/13625389/media/b2082c74c742d685fdddddebc219bf42.png" width="450px" height="300px" alt="디자인 1"></img>
+<img src="https://cdn.dribbble.com/users/2236928/screenshots/13752017/media/648daf2b850b2191ca1b58d1c85a6421.png?compress=1&resize=1200x900&vertical=top" width="450px" height="300px" alt="디자인 2"></img>
+<img src="https://cdn.dribbble.com/users/4708/screenshots/14355627/media/acaca4cbfc108f4c1107c5f013f76be4.png?compress=1&resize=1200x900&vertical=top" width="450px" height="300px" alt="디자인 3"></img>
+
+<br>
+
 ## 참고 자료
 * * *
 * ### [깃허브 사용법](https://tagilog.tistory.com/377)
