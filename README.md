@@ -44,7 +44,8 @@
 
 ## 참고 자료
 * * *
-* ### [깃허브 사용법](https://fomaios.tistory.com/entry/Git-Github-%EA%B0%99%EC%9D%80-%EC%A0%80%EC%9E%A5%EC%86%8C-%ED%95%A8%EA%BB%98-%EC%93%B0%EA%B8%B0feat%ED%98%91%EC%97%85%ED%95%98%EA%B8%B0)
+* ### [깃허브 사용법](https://tagilog.tistory.com/377)
+* ### [깃허브 협업 방법](https://fomaios.tistory.com/entry/Git-Github-%EA%B0%99%EC%9D%80-%EC%A0%80%EC%9E%A5%EC%86%8C-%ED%95%A8%EA%BB%98-%EC%93%B0%EA%B8%B0feat%ED%98%91%EC%97%85%ED%95%98%EA%B8%B0)
 * ### [Ajax 예시](https://sysdocu.tistory.com/1500)
 * ### [파이썬 Flask 사용법](https://scribblinganything.tistory.com/392)
 
