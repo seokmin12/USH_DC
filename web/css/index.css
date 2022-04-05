@@ -1,0 +1,81 @@
+@import "compass/css3";
+
+:root {
+    --main-color: #a29bfe;
+    --main-darken-color: #7E73C6;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    background-color: #eff2f5;
+}
+
+input:focus {
+    outline: none;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+div.wrap {
+    align-items: center;
+}
+
+div.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+div.left {
+    padding-right: 40px;
+}
+
+div.left h1 {
+    background: linear-gradient(to right, #ff5f5c, #2eadfd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+div.right {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    width: 20%;
+}
+
+div.right form {
+    display: flex;
+    flex-direction: column;
+}
+
+div.right form input {
+    margin-bottom: 10px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .1);
+    border: 0;
+    padding: 10px;
+}
+
+div.right form input[type="submit"] {
+    background-color: var(--main-color);
+    color: #ffffff;
+    border-radius: 3px;
+    transition: all 200ms ease-in;
+    cursor: pointer;
+}
+
+div.right form input[type="submit"]:hover {
+    background-color: var(--main-darken-color);
+}
+
+div.right div.etc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
