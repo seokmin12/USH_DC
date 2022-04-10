@@ -90,3 +90,43 @@ div.chat_main div.input button#send i {
 div.chat_main div.input button#send:hover {
     background-color: var(--main-darken-color);
 }
+
+ul.chat_content {
+    overflow-y: scroll;
+    height: 80%;
+    padding: 0;
+}
+
+ul.chat_content::-webkit-scrollbar {
+    display: none;
+}
+
+li.chatting_row {
+    padding: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+li.chatting_row div.chatting_side {
+    align-self: center;
+}
+
+li.chatting_row div.chatting_main {
+    display: flex;
+    flex-direction: column;
+}
+
+li.chatting_row div.chatting_main div.chatting_content {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .1);
+}
+
+li.chatting_row span.time {
+    font-size: 12px;
+    margin-bottom: 7px;
+}
+
+i#loader {
+    margin-top: 12px;
+}

@@ -1,5 +1,5 @@
 <?php
+    $time = date("H:m:s");
 
-echo 'Hello world';
-
+    echo "hello";
 ?>
