@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,6 +19,10 @@
             var css = '<link rel="stylesheet" href="../css/chatting.css?' + Math.random() + '">';
             $('head').append(css);
 
+            // side bar css 추가
+            var css = '<link rel="stylesheet" href="../css/side_bar.css?' + Math.random() + '">';
+            $('head').append(css);
+
             // 채팅 js 추가
             var js = '<script src="../js/chatting.js?' + Math.random() + '">';
             $('head').append(js);
@@ -28,9 +32,26 @@
 <body>
     <div class="wrap">
         <div class="chat">
-            <!-- <div class="chat_side">
-                <p>hi</p>
-            </div> -->
+            <div class="side_bar">
+                <ul>
+                    <div class="side_main">
+                        <li>
+                            <i class="bi bi-house-fill"></i>
+                        </li>
+                        <li>
+                            <i class="bi bi-person-circle"></i>
+                        </li>
+                        <li>
+                            <i class="bi bi-chat-left-text-fill"></i>
+                        </li>
+                    </div>
+                    <div class="side_sub">
+                        <li>
+                            <i class="bi bi-gear-fill"></i>
+                        </li>
+                    </div>
+                </ul>
+            </div>
             <div class="chat_main">
                 <center>
                     <i class="fa-solid fa-spinner fa-xl fa-spin" id="loader"></i>

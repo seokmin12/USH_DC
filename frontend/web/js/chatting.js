@@ -7,7 +7,6 @@ $(document).ready(function() {
     for (var i in cookies) {
         cookie_name += cookies[i].replace("user_name=", "");
     } // 쿠키 가져오기
-    $('.chat').append('<p>' + cookie_name + '</p>');
 
     // 초기 채팅 조회
     select_chat(list_scroll());
@@ -25,7 +24,7 @@ $(document).ready(function() {
 var select_chat_time;
 function select_chat() {
     $.ajax({
-        url: "../../php/select_chat.php",
+        url: "../../../backend/php/select_chat.php",
         type: "GET",
         cache: false,
         data: {
@@ -78,7 +77,7 @@ function send_chat() {
             return;
     } else {
         $.ajax({
-            url: "../../php/send_chat.php",
+            url: "../../../backend/php/send_chat.php",
             type: "GET",
             data: {
                 content: $('#chat_input').val(),
